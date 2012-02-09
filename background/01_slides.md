@@ -37,9 +37,9 @@ necessary"
 # Ilities
 * Extensibility
 * Reliability
-* Maintainability
 * Availability
 * Security
+* Maintainability
 
 <!SLIDE bullets>
 
@@ -58,8 +58,7 @@ design, and allows _reuse_ of design components and patterns between projects"
 * Limits choices
 * Component design
 
-.Supposedly noone talked about architecture until the eighties, OO
-Multitiered started it, more complex applications
+.notes Supposedly noone talked about architecture until the eighties, OO Multitiered started it, more complex applications
 
 <!SLIDE bullets>
 # Reuse
@@ -78,27 +77,38 @@ Multitiered started it, more complex applications
 * Statsability
 * Free golf rounds
 
+<!SLIDE subsection>
+# And the result is ...
+
 <!SLIDE  bullets>
-# Platforms
-foto på kantrad oljeplattform
+# Platforms!
+![Platform](collapsed_platform.jpg)
+
 
 <!SLIDE center>
 # Cobol
+![Caveman](caveman.jpg)
+Of course everybody are migrating from this
 
 <!SLIDE center>
 # Java
 ![Java](java_evil.png)
 
+Because adapting a new platform can't be wrong
+
 <!SLIDE bullets>
 # .Net
+![net](droid_army.jpg)
+
+While others don't know there are alternatives
 
 <!SLIDE center>
 # What We're Afraid Of
 ![New York Map](ny_map.jpg)
-.The manufacturing problem
+The manufacturing problem
 
 <!SLIDE center>
 # Cynefin Framework
 ![Cynefin Framework](cynefin.png)
-.Where is architecture. Reason about the role of the architect as the expert
+.notes Where is architecture. Reason about the role of the architect as the expert
 

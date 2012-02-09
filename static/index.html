@@ -130,7 +130,7 @@ necessary</p>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/5">
 <h1>What Do We Mean By Architecture?</h1>
 
-<p>Cissi</p>
+<p>[Fab picture of wife]</p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/6">
 <h1>IASA mentions IT Architects</h1>
@@ -149,9 +149,9 @@ necessary</p>
 <ul>
 <li>Extensibility</li>
 <li>Reliability</li>
-<li>Maintainability</li>
 <li>Availability</li>
 <li>Security</li>
+<li>Maintainability</li>
 </ul>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/8">
@@ -173,8 +173,7 @@ design, and allows <em>reuse</em> of design components and patterns between proj
 <li>Component design</li>
 </ul>
 
-<p class="Supposedly">noone talked about architecture until the eighties, OO
-Multitiered started it, more complex applications</p>
+<p class="notes">Supposedly noone talked about architecture until the eighties, OO Multitiered started it, more complex applications</p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/10">
 <h1>Reuse</h1>
@@ -202,85 +201,156 @@ Multitiered started it, more complex applications</p>
 <li>Free golf rounds</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/13">
-<h1>Platforms</h1>
-
-<p>foto p&#xE5; kantrad oljeplattform</p>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/13">
+<h1>And the result is ...</h1>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/14">
-<h1>Cobol</h1>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/14">
+<h1>Platforms!</h1>
+
+<p><img src="./file/background/collapsed_platform.jpg" width="550" height="413" alt="Platform"/>
+</p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/15">
+<h1>Cobol</h1>
+
+<p><img src="./file/background/caveman.jpg" width="584" height="450" alt="Caveman">
+Of course everybody are migrating from this</img>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/16">
 <h1>Java</h1>
 
 <p><img src="./file/background/java_evil.png" width="249" height="400" alt="Java"/>
+
+<p>Because adapting a new platform can't be wrong</p>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/16">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/17">
 <h1>.Net</h1>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/17">
-<h1>Cynefin Framework</h1>
 
-<p><img src="./file/background/cynefin.png" width="797" height="593" alt="Cynefin Framework">
-.Where is architecture. Reason about the role of the architect as the expert</img>
+<p><img src="./file/background/droid_army.jpg" width="950" height="447" alt="net"/>
+
+<p>While others don't know there are alternatives</p>
 </p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/18">
 <h1>What We're Afraid Of</h1>
 
-<p><img src="./file/background/ny_map.jpg" width="199" height="451" alt="New York Map"/>
+<p><img src="./file/background/ny_map.jpg" width="199" height="451" alt="New York Map">
+The manufacturing problem</img>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/19">
+<h1>Cynefin Framework</h1>
+
+<p><img src="./file/background/cynefin.png" width="797" height="593" alt="Cynefin Framework">
+.notes Where is architecture. Reason about the role of the architect as the expert</img>
 </p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/1">
 <h1>Example Architecture</h1>
-
-<p>CMS</p>
-
-<p>Admin
-Front</p>
-
-<p>Samma app</p>
-
-<p>skiljer bara p&#xE5; URL</p>
-
-<p>Hur tar vi ned delar?</p>
-
-<p>Skala - admin p&#xE5; alla?</p>
-
-<p>Databaser?</p>
-
-<p>Dela databas?</p>
-
-<p>Single signon?</p>
-
-<p>OAuth?</p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/2">
-<h1>How to do it wrong</h1>
+<h1>CMS</h1>
 
 <ul>
-<li>Sticky Sessions</li>
-<li>SOAP and interdependencies
-
-<ul>
-<li>Generating code stubs</li>
-<li>Technically separated, semantically together</li>
-</ul></li>
+<li>Admin</li>
+<li>Front</li>
 </ul>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/3">
-<h1>A complex system that works is invariably found to have evolved from a simple system that works.</h1>
+<ul>
+<li>Layered</li>
+<li>Replace DB</li>
+<li>Clustered with Sticky session</li>
+</ul>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/4">
-<p>bild p&#xE5; Ken Thompson och Dennis Ritchie
-UNIX!</p>
+<h1>External</h1>
+
+<ul>
+<li>SOAP</li>
+<li>Generated stubs</li>
+</ul>
 </div>
 </div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/5">
-<h1>How Will You Replace It?</h1>
+<h1>Ilities</h1>
 
-<p>set
-set</p>
+<ul>
+<li>Extensibility - check</li>
+<li>Reliability - check</li>
+<li>Availability - check</li>
+<li>Security - check</li>
+<li>Maintainability - check. </li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="main/01_slides/6">
+<h1>But It's Not Enough</h1>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/7">
+<ul>
+<li>Replacability - beep</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/8">
+<ul>
+<li>We're only talking simplicity in applications</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/9">
+<h1>Simplicity</h1>
+
+<ul>
+<li>Same app</li>
+<li>Differs in URL</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/10">
+<h1>Problems</h1>
+
+<ul>
+<li>Skala - admin p&#xE5; alla?</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/11">
+<h1>Layer Vertically Instead of Horizontally</h1>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/12">
+<h1>Can be done differently</h1>
+
+<ul>
+<li>Shared database</li>
+<li>Shared API</li>
+<li>[Rails experience]</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/13">
+<h1>Interesting problems</h1>
+
+<ul>
+<li>Single signon?</li>
+<li>OAuth?</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/14">
+<h1>Conclusions</h1>
+
+<ul>
+<li>Standardize on protocols and data, not platform</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/15">
+<h1>A complex system that works is invariably found to have evolved from a simple system that works.</h1>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/16">
+<h1>UNIX always did it right</h1>
+
+<ul>
+<li>[bild p&#xE5; Ken Thompson och Dennis Ritchie]</li>
+</ul>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/17">
+<h1>How Will You Replace It?</h1>
 </div>
 </div><div class="slide" data-transition="none"><div class="content center" ref="thanks/thanks">
 <h1>Thank You!</h1>

@@ -1,45 +1,75 @@
 <!SLIDE bullets>
 #Example Architecture
 
-CMS
+<!SLIDE bullets>
+# CMS
 
-Admin
-Front
+* Admin
+* Front
 
-Samma app
+<!SLIDE bullets>
+* Layered
+* Replace DB
+* Clustered with Sticky session
 
-skiljer bara på URL
+<!SLIDE bullets>
+# External
+* SOAP
+* Generated stubs
 
-Hur tar vi ned delar?
+<!SLIDE bullets>
+# Ilities
+* Extensibility - check
+* Reliability - check
+* Availability - check
+* Security - check
+* Maintainability - check. 
 
-Skala - admin på alla?
+<!SLIDE subsection>
+# But It's Not Enough
 
-Databaser?
+<!SLIDE bullets>
 
-Dela databas?
+* Replacability - beep
 
-Single signon?
+<!SLIDE bullets>
+* We're only talking simplicity in applications
 
-OAuth?
+<!SLIDE bullets>
+# Simplicity
+* Same app
+* Differs in URL
 
-<!SLIDE bullets >
-#How to do it wrong
+<!SLIDE bullets>
+# Problems
+* Skala - admin på alla?
 
-* Sticky Sessions
-* SOAP and interdependencies
-  * Generating code stubs
-  * Technically separated, semantically together
+
+<!SLIDE bullets>
+# Layer Vertically Instead of Horizontally
+
+<!SLIDE bullets>
+# Can be done differently
+* Shared database
+* Shared API
+* [Rails experience]
+
+<!SLIDE bullets>
+# Interesting problems
+* Single signon?
+* OAuth?
+
+<!SLIDE bullets>
+# Conclusions
+* Standardize on protocols and data, not platform
 
 <!SLIDE bullets>
 # A complex system that works is invariably found to have evolved from a simple system that works.
 
 <!SLIDE bullets>
-bild på Ken Thompson och Dennis Ritchie
-UNIX!
+# UNIX always did it right
+* [bild på Ken Thompson och Dennis Ritchie]
 
 <!SLIDE bullets>
 # How Will You Replace It?
 
-
-set
-set
