@@ -1,3 +1,8 @@
+<!SLIDE bullets>
+# tl;dr
+Asking yourself "How will I replace this system" will help you design better
+systems.
+
 <!SLIDE center>
 # We Create Systems That Are Hard To Replace
 ![businesssystem](CameraZOOM-20120113220317142.jpg)
@@ -13,86 +18,87 @@ necessary"
 # ... To The Point We Hate Them
 ![lotus notes cake](hate_lotus_notes_cake.jpg)
 
-<!SLIDE>
+<!SLIDE bullets>
 #What Do We Mean By Architecture?
 
-Cissi
+[Fab picture of wife]
 
-<!SLIDE>
+<!SLIDE bullets>
 
-IASA mentions IT Architects
+# IASA mentions IT Architects
 
-Enterprise
-Infrastructure
-Information
-Business
-Software
+* Enterprise
+* Infrastructure
+* Information
+* Business
+* Software
 
-<!SLIDE>
+<!SLIDE bullets>
+# Ilities
+* Extensibility
+* Reliability
+* Maintainability
+* Availability
+* Security
 
-The software architecture of a system is the set of structures needed to reason
-about the system, which comprise software elements, relations among them, and
+<!SLIDE bullets>
+
+"The software architecture of a system is the set of structures needed to _reason
+about_ the system, which comprise software elements, relations among them, and
 properties of both. [1] The term also refers to documentation of a system's
-software architecture. Documenting software architecture facilitates
-communication between stakeholders, documents early decisions about high-level
-design, and allows reuse of design components and patterns between projects
+software architecture. _Documenting_ software architecture facilitates
+communication between _stakeholders_ , documents _early_ decisions about high-level
+design, and allows _reuse_ of design components and patterns between projects"
 
-<!SLIDE>
-
-So Architecture is UML?
-
-<!SLIDE>
-
-Supposedly noone talked about architecture until the eighties, OO
-Multitiered started it, more complex applications
-
+<!SLIDE bullets>
+# Ivory Tower 
+* Early
+* Outside Development
+* UML
 * Limits choices
 * Component design
 
-<!SLIDE>
+.Supposedly noone talked about architecture until the eighties, OO
+Multitiered started it, more complex applications
 
-# Ilities
- * Extensibility
- * Reliability
- * Maintainability
- * Availability
- * Security
+<!SLIDE bullets>
+# Reuse
+* Libraries
+* Spring
 
- * Replacability
-
-<!SLIDE >
-
-What do we look for when we create an architecture?
-
-* Reuse
-  * Libraries
-  * Spring
-* Resource availablity
-  * What if people quit?
+<!SLIDE bullets>
+# Resource availablity
+* What if people quit?
 * Standards
-* Certifications
-* Sueability
 
-<!SLIDE >
+<!SLIDE  bullets>
 #Stakeholder
-* For the 
+* Sueability
 * Demoability
 * Statsability
 * Free golf rounds
 
-<!SLIDE >
-# Traditional Architectures
+<!SLIDE  bullets>
+# Platforms
+foto på kantrad oljeplattform
 
-* 
-<!SLIDE >
+<!SLIDE center>
+# Cobol
 
-# The history of Platforms
+<!SLIDE center>
+# Java
+![Java](java_evil.png)
 
-* Cobol
-* Java
-* .Net
+<!SLIDE bullets>
+# .Net
 
-SOAP and interdependencies
+<!SLIDE center>
+# What We're Afraid Of
+![New York Map](ny_map.jpg)
+.The manufacturing problem
 
-UNIX!
+<!SLIDE center>
+# Cynefin Framework
+![Cynefin Framework](cynefin.png)
+.Where is architecture. Reason about the role of the architect as the expert
 
