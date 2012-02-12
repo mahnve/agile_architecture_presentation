@@ -18,10 +18,8 @@ necessary"
 # ... To The Point We Hate Them
 ![lotus notes cake](hate_lotus_notes_cake.jpg)
 
-<!SLIDE bullets>
+<!SLIDE center>
 #What Do We Mean By Architecture?
-
-[Fab picture of wife]
 
 <!SLIDE bullets>
 
@@ -31,15 +29,7 @@ necessary"
 * Infrastructure
 * Information
 * Business
-* Software
-
-<!SLIDE bullets>
-# Ilities
-* Extensibility
-* Reliability
-* Availability
-* Security
-* Maintainability
+* _Software_
 
 <!SLIDE bullets>
 
@@ -66,7 +56,8 @@ design, and allows _reuse_ of design components and patterns between projects"
 * Spring
 
 <!SLIDE bullets>
-# Resource availablity
+# Maintainability
+* Resource availablity
 * What if people quit?
 * Standards
 
@@ -84,7 +75,6 @@ design, and allows _reuse_ of design components and patterns between projects"
 # Platforms!
 ![Platform](collapsed_platform.jpg)
 
-
 <!SLIDE center>
 # Cobol
 ![Caveman](caveman.jpg)
@@ -93,19 +83,12 @@ Of course everybody are migrating from this
 <!SLIDE center>
 # Java
 ![Java](java_evil.png)
-
 Because adapting a new platform can't be wrong
 
 <!SLIDE bullets>
 # .Net
 ![net](droid_army.jpg)
-
-While others don't know there are alternatives
-
-<!SLIDE center>
-# What We're Afraid Of
-![New York Map](ny_map.jpg)
-The manufacturing problem
+What, there are other platforms?
 
 <!SLIDE center>
 # Cynefin Framework
