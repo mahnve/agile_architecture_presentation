@@ -1,4 +1,4 @@
-<!SLIDE bullets>
+<!SLIDE subsection>
 # OK, now what?
 
 .notes This is the part of the presentation where we ask ourselves ok, so what
@@ -10,7 +10,7 @@ should we do?
 * Data
 * Never Implementation
 
-.notes you might have the same implementation
+.notes you might have the same implementation, but dont stdze!
 
 <!SLIDE center>
 #Example
@@ -23,6 +23,8 @@ should we do?
 <!SLIDE center>
 #Split Section
 ![Split Section](section_split.png)
+
+.notes we don't really need to know the internals
 
 
 <!SLIDE center>
@@ -38,6 +40,8 @@ should we do?
 <!SLIDE center>
 # OAuth
 
+notes. Adding apps as we go. No need for Oauth to know which apps.
+
 <!SLIDE subsection>
 # Other benefits
 
@@ -46,60 +50,38 @@ should we do?
 ![Midnight](midnight.jpg)
 
 <!SLIDE center>
-#Releasability
+#Short Term Replacability - Releasability
 ![Smaller Parts](several_small_apps.png)
 
 <!SLIDE center>
 #Scalability
 ![Smaller Parts](several_small_apps_2.png)
 
-<!SLIDE bullets>
-# External
-* SOAP
-* Generated stubs
-
 <!SLIDE center>
 #SOAP
 ![SOAP Stubs](soap_integration.png)
 
 <!SLIDE bullets>
-* We're only talking simplicity in applications
+# SOAP
+* Separated in organization
+* Technically joined at the hip
+
+<!SLIDE subsection>
+# Summing up
 
 <!SLIDE bullets>
-# Simplicity
-* Same app
-* Differs in URL
+# XP's values
+* Communication
+* Courage
+* Feedback
+* _Simplicity_
 
-<!SLIDE bullets>
-# Problems
-* Skala - admin på alla?
+We're only talking simplicity in applications
 
-
-<!SLIDE bullets>
-# Layer Vertically Instead of Horizontally
-
-<!SLIDE bullets>
-# Can be done differently
-* Shared database
-* Shared API
-* [Rails experience]
-
-<!SLIDE bullets>
-# Interesting problems
-* Single signon?
-* OAuth?
-
-<!SLIDE bullets>
-# Conclusions
-* Standardize on protocols and data, not platform
-
-<!SLIDE bullets>
-# A complex system that works is invariably found to have evolved from a simple system that works.
-
-<!SLIDE bullets>
+<!SLIDE center>
 # UNIX always did it right
-* [bild på Ken Thompson och Dennis Ritchie]
 
-<!SLIDE bullets>
-# How Will You Replace It?
+![Unix](unix.png)
+<!SLIDE center>
+# A complex system that works is invariably found to have evolved from a simple system that works.
 

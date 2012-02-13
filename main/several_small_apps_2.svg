@@ -14,8 +14,8 @@
    id="svg5817"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="several_small_apps.svg"
-   inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/main/several_small_apps.png"
+   sodipodi:docname="several_small_apps_2.svg"
+   inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/main/several_small_apps_2.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -50,39 +50,6 @@
            in="offsetBlur" />
         <feMergeNode
            id="feMergeNode6627"
-           in="SourceGraphic" />
-      </feMerge>
-    </filter>
-    <filter
-       id="filter6647"
-       inkscape:label="Drop shadow"
-       width="1.5"
-       height="1.5"
-       x="-.25"
-       y="-.25">
-      <feGaussianBlur
-         id="feGaussianBlur6649"
-         in="SourceAlpha"
-         stdDeviation="2"
-         result="blur" />
-      <feColorMatrix
-         id="feColorMatrix6651"
-         result="bluralpha"
-         type="matrix"
-         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
-      <feOffset
-         id="feOffset6653"
-         in="bluralpha"
-         dx="-4"
-         dy="-4"
-         result="offsetBlur" />
-      <feMerge
-         id="feMerge6655">
-        <feMergeNode
-           id="feMergeNode6657"
-           in="offsetBlur" />
-        <feMergeNode
-           id="feMergeNode6659"
            in="SourceGraphic" />
       </feMerge>
     </filter>
@@ -200,7 +167,7 @@
        rx="19.239639"
        ry="16.467155" />
     <rect
-       style="fill:#ff4500;stroke:#ff4500;stroke-width:2.15391111000000013;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6647)"
+       style="fill:#ff4500;stroke:#ff4500;stroke-width:2.15391111;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
        id="rect5825-2-2"
        width="223.50783"
        height="308.38077"

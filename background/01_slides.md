@@ -25,14 +25,17 @@ communication between _stakeholders_ , documents _early_ decisions about high-le
 design, and allows _reuse_ of design components and patterns between projects"
 
 <!SLIDE bullets>
-# Ivory Tower 
+# Ivory Tower Architecure
 * Early
 * Outside Development
 * UML
-* Limits choices
+* Sets out to limit choices
 * Component design
 
 .notes Supposedly noone talked about architecture until the eighties, OO Multitiered started it, more complex applications
+
+<!SLIDE subsection>
+# What Traditional Architecture Focus On
 
 <!SLIDE bullets>
 # Reuse
