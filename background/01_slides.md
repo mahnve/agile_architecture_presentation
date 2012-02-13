@@ -11,27 +11,11 @@ systems.
 necessary"
 
 <!SLIDE center>
-# ... Really Hard To Replace ...
+# ... Really Hard To Replace
 ![donttouch](dont_touch.png)
 
-<!SLIDE center>
-# ... To The Point We Hate Them
-![lotus notes cake](hate_lotus_notes_cake.jpg)
-
-<!SLIDE center>
-#What Do We Mean By Architecture?
-
 <!SLIDE bullets>
-
-# IASA mentions IT Architects
-
-* Enterprise
-* Infrastructure
-* Information
-* Business
-* _Software_
-
-<!SLIDE bullets>
+# IASA Definition of Software Architecture
 
 "The software architecture of a system is the set of structures needed to _reason
 about_ the system, which comprise software elements, relations among them, and
@@ -78,7 +62,7 @@ design, and allows _reuse_ of design components and patterns between projects"
 <!SLIDE center>
 # Cobol
 ![Caveman](caveman.jpg)
-Of course everybody are migrating from this
+Of course everybody is migrating from this
 
 <!SLIDE center>
 # Java
@@ -86,12 +70,25 @@ Of course everybody are migrating from this
 Because adapting a new platform can't be wrong
 
 <!SLIDE bullets>
-# .Net
+# Vendor Platforms 
+
 ![net](droid_army.jpg)
-What, there are other platforms?
+
+You know who
+
+.notes No, I don't have permission to use this image.
+
+<!SLIDE center>
+#Platforms Are One Way, Dead End Streets
+![One Way Dead End](one_way_dead_end.png)
+
+.notes How will you migrate away from it?
+
+<!SLIDE bullets>
 
 <!SLIDE center>
 # Cynefin Framework
 ![Cynefin Framework](cynefin.png)
-.notes Where is architecture. Reason about the role of the architect as the expert
+
+.notes Where is architecture. Reason about the role of the architect as the expert. Results in one way streets
 
