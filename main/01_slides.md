@@ -17,6 +17,21 @@ should we do?
 ![Overview](app_overview.png)
 
 <!SLIDE center>
+#SOAP
+![SOAP Stubs](soap_integration.png)
+
+<!SLIDE bullets>
+# SOAP
+* Separated by organization only
+* Technically joined at the hip
+
+<!SLIDE center>
+#Sending Data
+![JSON](json_integration.png)
+
+.notes The app url is the namespace
+
+<!SLIDE center>
 #Section
 ![Section](section.png)
 
@@ -24,18 +39,20 @@ should we do?
 #Split Section
 ![Split Section](section_split.png)
 
-.notes we don't really need to know the internals
+.notes we don't really need to know the internals, which is good because ...?
 
 
 <!SLIDE center>
 #But The Building Blocks Are Too Big
 ![One Big App](one_big_app.png)
 
-.notes How can we replace it?
+.notes How can we replace it?. Made the same mistake myself
 
 <!SLIDE center>
 #Smaller Parts
 ![Smaller Parts](several_small_apps.png)
+
+.notes organized by usage, stories, use cases
 
 <!SLIDE center>
 # OAuth
@@ -59,14 +76,6 @@ should we do?
 #Scalability
 ![Smaller Parts](several_small_apps_2.png)
 
-<!SLIDE center>
-#SOAP
-![SOAP Stubs](soap_integration.png)
-
-<!SLIDE bullets>
-# SOAP
-* Separated in organization
-* Technically joined at the hip
 
 <!SLIDE subsection>
 # Summing up

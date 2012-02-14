@@ -70,6 +70,8 @@ design, and allows _reuse_ of design components and patterns between projects"
 # Platforms!
 ![Platform](collapsed_platform.jpg)
 
+.notes You need another platform to get off, or a rescue boat
+
 <!SLIDE center>
 # Cobol
 ![Caveman](caveman.jpg)
