@@ -1,6 +1,6 @@
 <!SLIDE center>
 
-#[Agile Architecture - Design For Replaceability](http://marcusahnve.org/agile_architecture_presentation)
+#[Design For Replacability - Architecture For An Agile Lifestyle](http://marcusahnve.org/agile_architecture_presentation)
 
 ## Marcus Ahnve
 [http://marcusahnve.org](http://marcusahnve.org)  

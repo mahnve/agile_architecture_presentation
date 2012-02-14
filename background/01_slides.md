@@ -10,9 +10,8 @@ systems.
 "Switching a system is very painful ... don't do it unless it is absolutely
 necessary"
 
-<!SLIDE center>
-# ... Really Hard To Replace
-![donttouch](dont_touch.png)
+<!SLIDE subsection>
+# Background
 
 <!SLIDE center>
 # Cynefin Framework
@@ -33,8 +32,8 @@ design, and allows _reuse_ of design components and patterns between projects"
 <!SLIDE bullets>
 # Ivory Tower Architecure
 * Early
-* Outside Development
-* UML
+* Outside development
+* Boxes and arrows
 * Sets out to limit choices
 * Component design
 
@@ -45,6 +44,7 @@ design, and allows _reuse_ of design components and patterns between projects"
 
 <!SLIDE bullets>
 # Reuse
+* Tools
 * Libraries
 * Frameworks
 
@@ -52,7 +52,7 @@ design, and allows _reuse_ of design components and patterns between projects"
 
 <!SLIDE bullets>
 # Maintainability
-* Resource availablity
+* Resource availability
 * What if people quit?
 * Standards
 
