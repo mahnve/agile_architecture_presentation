@@ -14,6 +14,12 @@ necessary"
 # ... Really Hard To Replace
 ![donttouch](dont_touch.png)
 
+<!SLIDE center>
+# Cynefin Framework
+![Cynefin Framework](cynefin.png)
+
+.notes Where is architecture. Reason about the role of the architect as the expert. Results in one way streets
+
 <!SLIDE bullets>
 # IASA Definition of Software Architecture
 
@@ -40,7 +46,9 @@ design, and allows _reuse_ of design components and patterns between projects"
 <!SLIDE bullets>
 # Reuse
 * Libraries
-* Spring
+* Frameworks
+
+.notes Spring. Reuse of business logic doesn't work
 
 <!SLIDE bullets>
 # Maintainability
@@ -87,11 +95,4 @@ You know who
 
 .notes How will you migrate away from it?
 
-<!SLIDE bullets>
-
-<!SLIDE center>
-# Cynefin Framework
-![Cynefin Framework](cynefin.png)
-
-.notes Where is architecture. Reason about the role of the architect as the expert. Results in one way streets
 

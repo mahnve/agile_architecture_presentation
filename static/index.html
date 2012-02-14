@@ -79,7 +79,7 @@
 <div id="slides" class="offscreen" style="display:none;">
 <div class="slide" data-transition="none">
   <div class="content center" ref="intro/title/1">
-<h1>Agile Architecture - Design For Replaceability</h1>
+<h1><a href="http://marcusahnve.org/agile_architecture_presentation">Agile Architecture - Design For Replaceability</a></h1>
 
 <h2>Marcus Ahnve</h2>
 
@@ -124,7 +124,15 @@ necessary</p>
 <p><img src="./file/background/dont_touch.png" width="851" height="181" alt="donttouch"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/4">
+</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/4">
+<h1>Cynefin Framework</h1>
+
+<p><img src="./file/background/cynefin.png" width="797" height="593" alt="Cynefin Framework"/>
+
+<p class="notes">Where is architecture. Reason about the role of the architect as the expert. Results in one way streets</p>
+</p>
+</div>
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/5">
 <h1>IASA Definition of Software Architecture</h1>
 
 <p>"The software architecture of a system is the set of structures needed to <em>reason
@@ -134,7 +142,7 @@ software architecture. <em>Documenting</em> software architecture facilitates
 communication between <em>stakeholders</em> , documents <em>early</em> decisions about high-level
 design, and allows <em>reuse</em> of design components and patterns between projects"</p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/5">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/6">
 <h1>Ivory Tower Architecure</h1>
 
 <ul>
@@ -147,18 +155,20 @@ design, and allows <em>reuse</em> of design components and patterns between proj
 
 <p class="notes">Supposedly noone talked about architecture until the eighties, OO Multitiered started it, more complex applications</p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/6">
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/7">
 <h1>What Traditional Architecture Focus On</h1>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/7">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/8">
 <h1>Reuse</h1>
 
 <ul>
 <li>Libraries</li>
-<li>Spring</li>
+<li>Frameworks</li>
 </ul>
+
+<p class="notes">Spring. Reuse of business logic doesn't work</p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/8">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/9">
 <h1>Maintainability</h1>
 
 <ul>
@@ -167,7 +177,7 @@ design, and allows <em>reuse</em> of design components and patterns between proj
 <li>Standards</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/9">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/10">
 <h1>Stakeholder</h1>
 
 <ul>
@@ -177,30 +187,30 @@ design, and allows <em>reuse</em> of design components and patterns between proj
 <li>Free golf rounds</li>
 </ul>
 </div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/10">
+</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/11">
 <h1>And the result is ...</h1>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/11">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/12">
 <h1>Platforms!</h1>
 
 <p><img src="./file/background/collapsed_platform.jpg" width="550" height="413" alt="Platform"/>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/12">
+</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/13">
 <h1>Cobol</h1>
 
 <p><img src="./file/background/caveman.jpg" width="584" height="450" alt="Caveman">
 Of course everybody is migrating from this</img>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/13">
+</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/14">
 <h1>Java</h1>
 
 <p><img src="./file/background/java_evil.png" width="249" height="400" alt="Java">
 Because adapting a new platform can't be wrong</img>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/14">
+</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/15">
 <h1>Vendor Platforms</h1>
 
 <p><img src="./file/background/droid_army.jpg" width="950" height="447" alt="net"/>
@@ -210,20 +220,12 @@ Because adapting a new platform can't be wrong</img>
 <p class="notes">No, I don't have permission to use this image.</p>
 </p>
 </div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/15">
+</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/16">
 <h1>Platforms Are One Way, Dead End Streets</h1>
 
 <p><img src="./file/background/one_way_dead_end.png" width="392" height="499" alt="One Way Dead End"/>
 
 <p class="notes">How will you migrate away from it?</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/16">
-<h1>Cynefin Framework</h1>
-
-<p><img src="./file/background/cynefin.png" width="797" height="593" alt="Cynefin Framework"/>
-
-<p class="notes">Where is architecture. Reason about the role of the architect as the expert. Results in one way streets</p>
 </p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content subsection" ref="main/01_slides/1">
@@ -280,7 +282,10 @@ should we do?</p>
 </div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/8">
 <h1>OAuth</h1>
 
-<p>notes. Adding apps as we go. No need for Oauth to know which apps.</p>
+<p><img src="./file/main/oauth.png" width="627" height="503" alt="OAuth"/>
+
+<p class="notes">Adding apps as we go. No need for Oauth to know which apps. Heroku</p>
+</p>
 </div>
 </div><div class="slide" data-transition="none"><div class="content subsection" ref="main/01_slides/9">
 <h1>Other benefits</h1>
@@ -345,17 +350,16 @@ should we do?</p>
   <div class="content center" ref="thanks/thanks">
 <h1>Thank You!</h1>
 
-<h2>Marcus Ahnve</h2>
-
 <p><a href="http://marcusahnve.org">http://marcusahnve.org</a><br>
 <a href="mailto:marcus.ahnve@valtech.se">marcus.ahnve@valtech.se</a><br>
 <a href="mailto:marcus@ahnve.com">marcus@ahnve.com</a><br>
 <a href="http://www.twitter.com/mahnve">@mahnve</a><br>
+<a href="http://marcusahnve.org/agile_architecture_presentation">Slides</a><br>
 <img src="./file/thanks/valtech_logo.png" width="456" height="231" alt="Valtech">
 <a href="http://www.valtech.se">http://www.valtech.se</a></img>
 </br>
 </br>
-</br></br></p></div>
+</br></br></br></p></div>
 </div></div>
 
 </body>

@@ -6,6 +6,16 @@
   font-family: DejaVuMono, monospace;
 }
 
+h1 a {
+  text-decoration: none;
+}
+
+a, a:visited, 
+p, 
+li,
+h1,  h2, h3 {
+  color: #121212;
+}
 
 .content ul li,
 .content ul li ul li {

@@ -1,13 +1,13 @@
 <!SLIDE center>
 
-Agile Architecture - Design For Replaceability
-==============================================
+#[Agile Architecture - Design For Replaceability](http://marcusahnve.org/agile_architecture_presentation)
 
 ## Marcus Ahnve
 [http://marcusahnve.org](http://marcusahnve.org)  
 [marcus.ahnve@valtech.se](mailto:marcus.ahnve@valtech.se)  
 [marcus@ahnve.com](mailto:marcus@ahnve.com)  
 [@mahnve](http://www.twitter.com/mahnve)  
+
 
 ![Valtech](valtech_logo.png)
 

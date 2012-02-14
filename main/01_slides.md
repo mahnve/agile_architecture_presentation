@@ -40,7 +40,9 @@ should we do?
 <!SLIDE center>
 # OAuth
 
-notes. Adding apps as we go. No need for Oauth to know which apps.
+![OAuth](oauth.png)
+
+.notes Adding apps as we go. No need for Oauth to know which apps. Heroku
 
 <!SLIDE subsection>
 # Other benefits
