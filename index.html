@@ -1,376 +1,386 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
+<!doctype html>
+<html lang="en">
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Design For Replacability - Architecture For An Agile Lifestyle</title>
-
-  <meta name="viewport" content="width=device-width"/>
-
-  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
-  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
-
-  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
-  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
-	<script type="text/javascript" src="./js/jquery-print.js"></script>
-  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
-
-  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
-
-  <script type="text/javascript" src="./js/fg.menu.js"></script>
-  <script type="text/javascript" src="./js/showoff.js"></script>
-  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
-  <script type="text/javascript" src="./js/sh_main.min.js"></script>
-  <script type="text/javascript" src="./js/core.js"></script>
-  <script type="text/javascript" src="./js/showoffcore.js"></script>
-  <script type="text/javascript" src="./js/coffee-script.js"></script>
-
-  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
-  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
-  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" >
-
-  
-    <link rel="stylesheet" href="./file/stylesheet.css" type="text/css"/>
-  
-
-  
-
-  <script type="text/javascript">
-  $(function(){
-      setupPreso(false, './');
-  });
-  </script>
-
-</head>
-
-<body>
-
-<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
-<div id="navigation" class="hidden"></div>
-
-<div id="help">
-  <table>
-    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
-    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
-    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
-    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
-    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
-    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
-    <tr><td class="key">f</td><td>toggle footer</td></tr>
-    <tr><td class="key">r</td><td>reload slides</td></tr>
-    <tr><td class="key">n</td><td>toggle notes</td></tr>
-    <tr><td class="key">p</td><td>run preshow</td></tr>
-  </table>
-</div>
-
-<div class="buttonNav">
-  <input type="submit" onClick="prevStep();" value="prev"/>
-  <input type="submit" onClick="nextStep();" value="next"/>
-</div>
-
-<div id="preso">loading presentation...</div>
-<div id="footer">
-  <span id="slideInfo"></span>
-  <span id="debugInfo"></span>
-  <span id="notesInfo"></span>
-</div>
-
-<div id="slides" class="offscreen" style="display:none;">
-<div class="slide" data-transition="none">
-  <div class="content center" ref="intro/title/1">
-<h1><a href="http://marcusahnve.org/agile_architecture_presentation">Design For Replacability - Architecture For An Agile Lifestyle</a></h1>
-
-<h2>Marcus Ahnve</h2>
-
-<p><a href="http://marcusahnve.org">http://marcusahnve.org</a><br>
-<a href="mailto:marcus.ahnve@valtech.se">marcus.ahnve@valtech.se</a><br>
-<a href="mailto:marcus@ahnve.com">marcus@ahnve.com</a><br>
-<a href="http://www.twitter.com/mahnve">@mahnve</a>  </br>
-
-<p><img src="./file/intro/valtech_logo.png" width="456" height="231" alt="Valtech"/>
-
-<p><a href="http://www.valtech.se">http://www.valtech.se</a></p>
-</p>
-</br>
-</br></p></div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="intro/title/2">
-<h1>About me</h1>
-
-<ul>
-<li>Playing Agile Coach</li>
-<li>Developed software professionally since 1996</li>
-<li>Rubyist</li>
-</ul>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/1">
-<h1>tl;dr</h1>
-
-<p>Asking yourself "How will I replace this system" will help you design better
-systems.</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/2">
-<h1>We Create Systems That Are Hard To Replace</h1>
-
-<p><img src="./file/background/CameraZOOM-20120113220317142.jpg" width="533" height="400" alt="businesssystem"/>
-
-<p>Switching a system is very painful ... don't do it unless it is absolutely
-necessary</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/3">
-<h1>Background</h1>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/4">
-<h1>Cynefin Framework</h1>
-
-<p><img src="./file/background/cynefin.png" width="797" height="593" alt="Cynefin Framework"/>
-
-<p class="notes">Where is architecture. Reason about the role of the architect as the expert. Results in one way streets</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/5">
-<h1>IASA Definition of Software Architecture</h1>
-
-<p>"The software architecture of a system is the set of structures needed to <em>reason
-about</em> the system, which comprise software elements, relations among them, and
-properties of both. [1] The term also refers to documentation of a system's
-software architecture. <em>Documenting</em> software architecture facilitates
-communication between <em>stakeholders</em> , documents <em>early</em> decisions about high-level
-design, and allows <em>reuse</em> of design components and patterns between projects"</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/6">
-<h1>Ivory Tower Architecure</h1>
-
-<ul>
-<li>Early</li>
-<li>Outside development</li>
-<li>Boxes and arrows</li>
-<li>Sets out to limit choices</li>
-<li>Component design</li>
-</ul>
-
-<p class="notes">Supposedly noone talked about architecture until the eighties, OO Multitiered started it, more complex applications</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/7">
-<h1>What Traditional Architecture Focus On</h1>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/8">
-<h1>Reuse</h1>
-
-<ul>
-<li>Tools</li>
-<li>Libraries</li>
-<li>Frameworks</li>
-</ul>
-
-<p class="notes">Spring. Reuse of business logic doesn't work</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/9">
-<h1>Maintainability</h1>
-
-<ul>
-<li>Resource availability</li>
-<li>What if people quit?</li>
-<li>Standards</li>
-</ul>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/10">
-<h1>Stakeholder</h1>
-
-<ul>
-<li>Sueability</li>
-<li>Demoability</li>
-<li>Statsability</li>
-<li>Free golf rounds</li>
-</ul>
-</div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="background/01_slides/11">
-<h1>And the result is ...</h1>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/12">
-<h1>Platforms!</h1>
-
-<p><img src="./file/background/collapsed_platform.jpg" width="550" height="413" alt="Platform"/>
-
-<p class="notes">You need another platform to get off, or a rescue boat</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/13">
-<h1>Cobol</h1>
-
-<p><img src="./file/background/caveman.jpg" width="584" height="450" alt="Caveman">
-Of course everybody is migrating from this</img>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/14">
-<h1>Java</h1>
-
-<p><img src="./file/background/java_evil.png" width="249" height="400" alt="Java">
-Because adapting a new platform can't be wrong</img>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="background/01_slides/15">
-<h1>Vendor Platforms</h1>
-
-<p><img src="./file/background/droid_army.jpg" width="950" height="447" alt="net"/>
-
-<p>You know who</p>
-
-<p class="notes">No, I don't have permission to use this image.</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="background/01_slides/16">
-<h1>Platforms Are One Way, Dead End Streets</h1>
-
-<p><img src="./file/background/one_way_dead_end.png" width="392" height="499" alt="One Way Dead End"/>
-
-<p class="notes">How will you migrate away from it?</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="main/01_slides/1">
-<h1>OK, now what?</h1>
-
-<p class="notes">This is the part of the presentation where we ask ourselves ok, so what
-should we do?</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/2">
-<h1>Standardize on:</h1>
-
-<ul>
-<li>Protocol</li>
-<li>Data</li>
-<li>Never Implementation</li>
-</ul>
-
-<p class="notes">you might have the same implementation, but dont stdze!</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/3">
-<h1>Example</h1>
-
-<p><img src="./file/main/app_overview.png" width="699" height="447" alt="Overview"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/4">
-<h1>SOAP</h1>
-
-<p><img src="./file/main/soap_integration.png" width="699" height="447" alt="SOAP Stubs"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/5">
-<h1>SOAP</h1>
-
-<ul>
-<li>Separated by organization only</li>
-<li>Technically joined at the hip</li>
-</ul>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/6">
-<h1>Sending Data</h1>
-
-<p><img src="./file/main/json_integration.png" width="699" height="447" alt="JSON"/>
-
-<p class="notes">The app url is the namespace</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/7">
-<h1>Section</h1>
-
-<p><img src="./file/main/section.png" width="836" height="526" alt="Section"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/8">
-<h1>Split Section</h1>
-
-<p><img src="./file/main/section_split.png" width="831" height="541" alt="Split Section"/>
-
-<p class="notes">we don't really need to know the internals, which is good because ...?</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/9">
-<h1>But The Building Blocks Are Too Big</h1>
-
-<p><img src="./file/main/one_big_app.png" width="500" height="454" alt="One Big App"/>
-
-<p class="notes">How can we replace it?. Made the same mistake myself</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/10">
-<h1>Smaller Parts</h1>
-
-<p><img src="./file/main/several_small_apps.png" width="769" height="462" alt="Smaller Parts"/>
-
-<p class="notes">organized by usage, stories, use cases</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/11">
-<h1>OAuth</h1>
-
-<p><img src="./file/main/oauth.png" width="627" height="503" alt="OAuth"/>
-
-<p class="notes">Adding apps as we go. No need for Oauth to know which apps. Heroku</p>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="main/01_slides/12">
-<h1>Other benefits</h1>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/13">
-<h1>Releasability</h1>
-
-<p><img src="./file/main/midnight.jpg" width="850" height="638" alt="Midnight"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/14">
-<h1>Short Term Replacability - Releasability</h1>
-
-<p><img src="./file/main/several_small_apps.png" width="769" height="462" alt="Smaller Parts"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/15">
-<h1>Scalability</h1>
-
-<p><img src="./file/main/several_small_apps_2.png" width="769" height="538" alt="Smaller Parts"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content subsection" ref="main/01_slides/16">
-<h1>Summing up</h1>
-</div>
-</div><div class="slide" data-transition="none"><div class="content bullets" ref="main/01_slides/17">
-<h1>XP's values</h1>
-
-<ul>
-<li>Communication</li>
-<li>Courage</li>
-<li>Feedback</li>
-<li><em>Simplicity</em></li>
-</ul>
-
-<p>We're only talking simplicity in applications</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/18">
-<h1>UNIX always did it right</h1>
-
-<p><img src="./file/main/unix.png" width="755" height="464" alt="Unix"/>
-</p>
-</div>
-</div><div class="slide" data-transition="none"><div class="content center" ref="main/01_slides/19">
-<h1>A complex system that works is invariably found to have evolved from a simple system that works.</h1>
-</div>
-</div><div class="slide" data-transition="none">
-  <div class="content center" ref="thanks/thanks">
-<h1>Thank You!</h1>
-
-<p><a href="http://marcusahnve.org">http://marcusahnve.org</a><br>
-<a href="mailto:marcus.ahnve@valtech.se">marcus.ahnve@valtech.se</a><br>
-<a href="mailto:marcus@ahnve.com">marcus@ahnve.com</a><br>
-<a href="http://www.twitter.com/mahnve">@mahnve</a><br>
-<a href="http://marcusahnve.org/agile_architecture_presentation">Slides</a><br>
-<img src="./file/thanks/valtech_logo.png" width="456" height="231" alt="Valtech">
-<a href="http://www.valtech.se">http://www.valtech.se</a></img>
-</br>
-</br>
-</br></br></br></p></div>
-</div></div>
-
-</body>
+    <title>Design For Replacability - Architecture For An Agile Lifestyle</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <link rel="stylesheet" href="lib/zenburn.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen" charset="utf-8">
+
+  </head>
+
+  <body>
+    <div id='reveal'>
+      <div class="slides">
+        <section>
+        <h1>
+          <a href="http://marcusahnve.org/agile_architecture_presentation">Design For Replacability</a>
+        </h1>
+        <h2>
+          <a href="http://marcusahnve.org/agile_architecture_presentation">Architecture For An Agile Lifestyle</a>
+        </h2>
+
+        <h2>Marcus Ahnve</h2>
+
+        <p>
+          <a href="http://marcusahnve.org">http://marcusahnve.org</a><br/>
+          <a href="mailto:marcus.ahnve@valtech.se">marcus.ahnve@valtech.se</a><br/>
+          <a href="mailto:marcus@ahnve.com">marcus@ahnve.com</a><br/>
+          <a href="http://www.twitter.com/mahnve">@mahnve</a><br/>
+          <img class='logo' src="images/valtech_logo.png" alt="Valtech"/>
+        </p>
+
+        <p>
+          <a href="http://www.valtech.se">http://www.valtech.se</a>
+        </p>
+        </section>
+
+        <section>
+        <h2>About me</h2>
+
+        <ul>
+          <li>Playing Agile Coach</li>
+          <li>Developed software professionally since 1996</li>
+          <li>Rubyist</li>
+        </ul>
+
+        </section>
+
+        <section>
+        <h2>tl;dr</h2>
+
+        <p>Asking yourself "How will I replace this system" will help you design better
+          systems.
+        </p>
+        </section>
+
+        <section>
+        <h2>We Create Systems That Are Hard To Replace</h2>
+
+        <p><img src="images/CameraZOOM-20120113220317142.jpg" alt="businesssystem"/></p>
+
+        <p>
+          "Switching a system is very painful ... don't do it unless it is absolutely
+          necessary"
+        </p>
+        </section>
+
+        <section>
+        <h2>Background</h2>
+        </section>
+
+        <section>
+        <h2>Cynefin Framework</h2>
+
+        <p><img src="images/cynefin.png" alt="Cynefin Framework"/></p>
+
+        <p class="notes">Where is architecture. Reason about the role of the architect as the expert. Results in one way streets</p>
+        </section>
+
+        <section>
+        <h2>IASA Definition of Software Architecture</h2>
+
+        <p>"The software architecture of a system is the set of structures needed to <em>reason
+            about</em> the system, which comprise software elements, relations among them, and
+          properties of both. [1] The term also refers to documentation of a system's
+          software architecture. <em>Documenting</em> software architecture facilitates
+          communication between <em>stakeholders</em> , documents <em>early</em> decisions about high-level
+          design, and allows <em>reuse</em> of design components and patterns between projects"</p>
+        </section>
+
+        <section>
+        <h2>Ivory Tower Architecure</h2>
+
+        <ul>
+          <li>Early</li>
+          <li>Outside development</li>
+          <li>Boxes and arrows</li>
+          <li>Sets out to limit choices</li>
+          <li>Component design</li>
+        </ul>
+
+        <p class="notes">Supposedly noone talked about architecture until the eighties, OO Multitiered started it, more complex applications</p>
+        </section>
+
+        <section>
+        <h2>What Traditional Architecture Focus On</h2>
+        </section>
+
+        <section>
+        <h2>Reuse</h2>
+
+        <ul>
+          <li>Tools</li>
+          <li>Libraries</li>
+          <li>Frameworks</li>
+        </ul>
+
+
+        <p class="notes">Spring. Reuse of business logic doesn't work</p>
+        </section>
+
+        <section>
+        <h2>Maintainability</h2>
+
+        <ul>
+          <li>Resource availability</li>
+          <li>What if people quit?</li>
+          <li>Standards</li>
+        </ul>
+
+        </section>
+
+        <section>
+        <h2>Stakeholder</h2>
+
+        <ul>
+          <li>Sueability</li>
+          <li>Demoability</li>
+          <li>Statsability</li>
+          <li>Free golf rounds</li>
+        </ul>
+
+        </section>
+
+        <section>
+        <h2>And the result is ...</h2>
+        </section>
+
+        <section>
+        <h2>Platforms!</h2>
+
+        <p><img src="images/collapsed_platform.jpg" alt="Platform"/></p>
+
+        <p class="notes">You need another platform to get off, or a rescue boat</p>
+        </section>
+
+        <section>
+        <h2>Cobol</h2>
+
+        <p><img src="images/caveman.jpg" alt="Caveman"/><p>
+        <p> Of course everybody is migrating from this </p>
+        </section>
+
+        <section>
+        <h2>Java</h2>
+
+        <p><img src="images/java_evil.png" alt="Java"/></p>
+        <p>Because adapting a new platform can't be wrong</p>
+        </section>
+
+        <section>
+        <h2>Vendor Platforms</h2>
+
+        <p><img src="images/droid_army.jpg" alt="net"/></p>
+
+        <p>You know who</p>
+
+        <p class="notes">No, I don't have permission to use this image.</p>
+        </section>
+
+        <section>
+        <h2>Platforms Are One Way, Dead End Streets</h2>
+
+        <p><img src="images/one_way_dead_end.png" alt="One Way Dead End"/></p>
+
+        <p class="notes">How will you migrate away from it?</p>
+        </section>
+
+        <section>
+        <h2>OK, now what?</h2>
+
+        <p class="notes">This is the part of the presentation where we ask ourselves ok, so what
+          should we do?</p>
+        </section>
+
+        <section>
+        <h2>Standardize on:</h2>
+
+        <ul>
+          <li>Protocol</li>
+          <li>Data</li>
+          <li>Never Implementation</li>
+        </ul>
+
+
+        <p class="notes">you might have the same implementation, but dont stdze!</p>
+        </section>
+        <section>
+        <h2>Example</h2>
+
+        <p><img class="padded" src="images/app_overview.png" alt="Overview"/></p>
+        </section>
+        <section>
+        <h2>SOAP</h2>
+
+        <p><img class="padded" src="images/soap_integration.png" alt="SOAP Stubs"/></p>
+        </section>
+        <section>
+        <h2>SOAP</h2>
+
+        <ul>
+          <li>Separated by organization only</li>
+          <li>Technically joined at the hip</li>
+        </ul>
+
+        </section>
+        <section>
+        <h2>Sending Data</h2>
+
+        <p><img class="padded" src="images/json_integration.png" alt="JSON"/></p>
+
+        <p class="notes">The app url is the namespace</p>
+        </section>
+        <section>
+        <h2>Section</h2>
+
+        <p><img class="padded" src="images/section.png" alt="Section"/></p>
+        </section>
+        <section>
+        <h2>Split Section</h2>
+
+        <p><img class="padded" src="images/section_split.png" alt="Split Section"/></p>
+
+        <p class="notes">we don't really need to know the internals, which is good because ...?</p>
+        </section>
+        <section>
+        <h2>But The Building Blocks Are Too Big</h2>
+
+        <p><img class="padded" src="images/one_big_app.png" alt="One Big App"/></p>
+
+        <p class="notes">How can we replace it?. Made the same mistake myself</p>
+        </section>
+        <section>
+        <h2>Smaller Parts</h2>
+
+        <p><img class="padded" src="images/several_small_apps.png" alt="Smaller Parts"/></p>
+
+        <p class="notes">organized by usage, stories, use cases</p>
+        </section>
+        <section>
+        <h2>OAuth</h2>
+
+        <p><img class="padded" src="images/oauth.png" alt="OAuth"/></p>
+
+        <p class="notes">Adding apps as we go. No need for Oauth to know which apps. Heroku</p>
+        </section>
+        <section>
+        <h2>Other benefits</h2>
+        </section>
+        <section>
+        <h2>Releasability</h2>
+
+        <p><img src="images/midnight.jpg" alt="Midnight"/></p>
+        </section>
+        <section>
+        <h2>Short Term Replacability - Releasability</h2>
+
+        <p><img class="padded" src="images/several_small_apps.png" alt="Smaller Parts"/></p>
+        </section>
+
+        <section>
+        <h2>Scalability</h2>
+
+        <p><img class="padded" src="images/several_small_apps_2.png" alt="Smaller Parts"/></p>
+        </section>
+
+        <section>
+        <h2>Summing up</h2>
+        </section>
+
+        <section>
+        <h2>XP's values</h2>
+
+        <ul>
+          <li>Communication</li>
+          <li>Courage</li>
+          <li>Feedback</li>
+          <li><em>Simplicity</em></li>
+        </ul>
+
+        <p>We're only talking simplicity in applications</p>
+
+        </section>
+
+        <section>
+        <h2>UNIX always did it right</h2>
+
+        <p><img src="images/unix.png" alt="Unix"/></p>
+        </section>
+
+        <section>
+        <h2>A complex system that works is invariably found to have evolved from a simple system that works.</h2>
+        </section>
+
+        <section>
+        <h2>Thank You!</h2>
+
+        <p><a href="http://marcusahnve.org">http://marcusahnve.org</a><br/>
+          <a href="mailto:marcus.ahnve@valtech.se">marcus.ahnve@valtech.se</a><br/>
+          <a href="mailto:marcus@ahnve.com">marcus@ahnve.com</a><br/>
+          <a href="http://www.twitter.com/mahnve">@mahnve</a><br/>
+          <a href="http://marcusahnve.org/agile_architecture_presentation">Slides</a><br/>
+        </p>
+        <p>
+          <img src="images/valtech_logo.png" alt="Valtech"/>
+        </p>
+        <p>
+          <a href="http://www.valtech.se">http://www.valtech.se</a>
+        </p>
+        </section>
+
+
+      </div>
+
+      <!-- The navigational controls UI -->
+      <aside class="controls">
+        <a class="left" href="#">&#x25C4;</a>
+        <a class="right" href="#">&#x25BA;</a>
+        <a class="up" href="#">&#x25B2;</a>
+        <a class="down" href="#">&#x25BC;</a>
+      </aside>
+
+      <!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+      <div class="progress"><span></span></div>
+    </div>
+
+
+    <script src="js/reveal.js"></script>
+    <script src="lib/highlight.js"></script>
+    <script>
+      // Parse the query string into a key/value object
+      var query = {};
+      location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+        query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+      } );
+
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // If true; each slide will be pushed to the browser history
+        history: true,
+
+        // Flags if mouse wheel navigation should be enabled
+        mouseWheel: true,
+
+        // Apply a 3D roll to links on hover
+        rollingLinks: false,
+
+        // UI style
+        theme: query.theme || 'default', // default/neon
+
+        // Transition style
+        transition: query.transition || 'linear' // default/cube/page/concave/linear(2d)
+      });
+
+      hljs.initHighlightingOnLoad();
+    </script>
+  </body>
 </html>
