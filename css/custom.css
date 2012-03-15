@@ -1,0 +1,20 @@
+#reveal img {
+  border-style: none;
+  background-color: none;
+}
+ 
+#reveal img.padded {
+  padding: 10px;
+}
+
+#reveal .slides {
+  margin-top: -380px;
+}
+
+.notes {
+  display: none;
+}
+
+p {
+  margin-top: 10px;
+}
