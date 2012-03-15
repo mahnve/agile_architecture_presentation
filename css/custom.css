@@ -7,6 +7,10 @@
   padding: 10px;
 }
 
+#reveal .singletext {
+  margin-top: 300px;
+}
+
 #reveal .slides {
   margin-top: -380px;
 }
@@ -18,3 +22,5 @@
 p {
   margin-top: 10px;
 }
+
+
