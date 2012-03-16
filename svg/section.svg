@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024px"
+   height="768px"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="section.svg"
+   inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2987">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4002"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2673329"
+     inkscape:cx="344.61991"
+     inkscape:cy="323.53995"
+     inkscape:current-layer="layer5"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="2556"
+     inkscape:window-height="1403"
+     inkscape:window-x="1440"
+     inkscape:window-y="17"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Base"
+     inkscape:groupmode="layer"
+     style="display:none">
+    <g
+       id="g14072"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="14.748482"
+         y="195.66249"
+         x="49.478573"
+         height="113.28523"
+         width="184.56583"
+         id="rect2993"
+         style="fill:#ff0000;stroke:#ff0000;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+         ry="14.748482" />
+      <text
+         transform="scale(1.0221741,0.97830692)"
+         sodipodi:linespacing="125%"
+         id="text3763"
+         y="289.83871"
+         x="111.56453"
+         style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+         xml:space="preserve"><tspan
+           style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+           y="289.83871"
+           x="111.56453"
+           id="tspan3765"
+           sodipodi:role="line">A</tspan></text>
+    </g>
+    <rect
+       style="fill:#48d1cc;stroke:#48d1cc;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-7"
+       width="184.56583"
+       height="113.28523"
+       x="264.74362"
+       y="195.66249"
+       rx="14.748482"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+       x="321.03799"
+       y="290.78455"
+       id="text3763-9"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221741,0.97830692)"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765-0"
+         x="321.03799"
+         y="290.78455"
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold">B</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3791"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"><flowRegion
+         id="flowRegion3793"><rect
+           id="rect3795"
+           width="352.13919"
+           height="257.38687"
+           x="420.02142"
+           y="99.076988" /></flowRegion><flowPara
+         id="flowPara3797" /></flowRoot>    <rect
+       style="fill:#9acd32;stroke:#9acd32;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-4"
+       width="184.56583"
+       height="113.28523"
+       x="477.75513"
+       y="195.66249"
+       rx="14.748482"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#32cd32;stroke-width:0.90005338;font-family:Signika;-inkscape-font-specification:Signika"
+       x="530.55048"
+       y="290.69656"
+       id="text3763-99"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221741,0.97830692)"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765-9"
+         x="530.55048"
+         y="290.69656"
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;stroke:#fffafa;stroke-width:0.90005338;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">C</tspan></text>
+    <rect
+       style="fill:#ff8c00;stroke:#ff8c00;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-6"
+       width="184.56583"
+       height="113.28523"
+       x="694.44574"
+       y="195.66249"
+       rx="14.748482"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+       x="741.55054"
+       y="290.74054"
+       id="text3763-2"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221741,0.97830692)"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765-1"
+         x="741.55054"
+         y="290.74054"
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold">D</tspan></text>
+    <rect
+       ry="18.465067"
+       style="fill:#00ff00;stroke:#00ff00;stroke-width:1.29268193;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-0"
+       width="405.8483"
+       height="106.26925"
+       x="51.035801"
+       y="442.07303"
+       rx="12.700654"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+       x="140.08829"
+       y="722.09845"
+       id="text3763-5"
+       sodipodi:linespacing="125%"
+       transform="scale(1.9242455,0.51968422)"><tspan
+         sodipodi:role="line"
+         id="tspan3765-7"
+         x="140.08829"
+         y="722.09845"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Nunito;-inkscape-font-specification:Nunito Bold" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4912"
+       y="354.53326"
+       x="269.85806"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+       xml:space="preserve"><tspan
+         y="354.53326"
+         x="269.85806"
+         id="tspan4914"
+         sodipodi:role="line" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4916"
+       y="524.22644"
+       x="123.26885"
+       style="font-size:72.65346527px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nunito;-inkscape-font-specification:Nunito Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#fffafa;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="524.22644"
+         x="123.26885"
+         id="tspan4918"
+         sodipodi:role="line">Domain</tspan></text>
+    <g
+       transform="matrix(2.3382316,0,0,0.56042805,-43.556528,370.69552)"
+       style="fill:#2f4f4f;stroke:#2f4f4f;stroke-width:2.26511407;stroke-miterlimit:0;stroke-dasharray:none"
+       id="g4944"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#2f4f4f;stroke:#2f4f4f;stroke-width:2.26511407;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+         id="rect4920"
+         width="75.530472"
+         height="188.96954"
+         x="186.03635"
+         y="414.21332"
+         rx="0"
+         ry="0" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#2f4f4f;stroke:#2f4f4f;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+         id="path4922"
+         sodipodi:cx="368.49039"
+         sodipodi:cy="492.61853"
+         sodipodi:rx="125.46033"
+         sodipodi:ry="18.148348"
+         d="m 493.95071,492.61853 a 125.46033,18.148348 0 1 1 -250.92065,0 125.46033,18.148348 0 1 1 250.92065,0 z"
+         transform="matrix(0.30081154,0,0,1.0660208,112.95257,-110.92827)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#2f4f4f;stroke:#2f4f4f;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+         id="path4922-8"
+         sodipodi:cx="368.49039"
+         sodipodi:cy="492.61853"
+         sodipodi:rx="125.46033"
+         sodipodi:ry="18.148348"
+         d="m 493.95071,492.61853 a 125.46033,18.148348 0 1 1 -250.92065,0 125.46033,18.148348 0 1 1 250.92065,0 z"
+         transform="matrix(0.30081154,0,0,1.0660208,112.95257,78.331136)" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4916-2"
+       y="682.38324"
+       x="434.90259"
+       style="font-size:72.65346527px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nunito;-inkscape-font-specification:Nunito Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#fffafa;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="682.38324"
+         x="434.90259"
+         id="tspan4918-2"
+         sodipodi:role="line">DB</tspan></text>
+    <rect
+       ry="18.465069"
+       style="fill:#808080;stroke:#808080;stroke-width:1.8450557;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-0-9"
+       width="826.79803"
+       height="106.26925"
+       x="51.138824"
+       y="322.40521"
+       rx="25.873894"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4916-7"
+       y="402.62524"
+       x="181.0545"
+       style="font-size:72.65346527px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nunito;-inkscape-font-specification:Nunito Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#fffafa;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="402.62524"
+         x="181.0545"
+         id="tspan4918-8"
+         sodipodi:role="line">Web Framework</tspan></text>
+    <rect
+       ry="18.465069"
+       style="fill:#00ff00;stroke:#00ff00;stroke-width:1.29268193;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-0-2"
+       width="405.8483"
+       height="106.26925"
+       x="478.20032"
+       y="442.07303"
+       rx="12.700654"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4916-3"
+       y="524.22644"
+       x="550.43335"
+       style="font-size:72.65346527px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nunito;-inkscape-font-specification:Nunito Bold"
+       xml:space="preserve"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#fffafa;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="524.22644"
+         x="550.43335"
+         id="tspan4918-20"
+         sodipodi:role="line">Domain</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Individual"
+     style="display:inline">
+    <rect
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:29.99999888, 4.99999981;stroke-dashoffset:0"
+       id="rect14219"
+       width="179.90535"
+       height="520.77869"
+       x="63.91375"
+       y="170.6826"
+       rx="17.983315"
+       ry="18.465069"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(12.096847,-106.74789)"
+       id="g14072-9"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         rx="14.748482"
+         y="195.66249"
+         x="49.478573"
+         height="113.28523"
+         width="184.56583"
+         id="rect2993-49"
+         style="fill:#ff0000;stroke:#ff0000;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+         ry="14.748482" />
+      <text
+         transform="scale(1.0221741,0.97830692)"
+         sodipodi:linespacing="125%"
+         id="text3763-20"
+         y="289.83871"
+         x="111.56453"
+         style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+         xml:space="preserve"><tspan
+           style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+           y="289.83871"
+           x="111.56453"
+           id="tspan3765-4"
+           sodipodi:role="line">A</tspan></text>
+    </g>
+    <rect
+       style="fill:#ffffff;stroke:#40e0d0;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:29.99999888, 4.99999981;stroke-dashoffset:0"
+       id="rect14219-3"
+       width="179.90535"
+       height="520.77869"
+       x="278.53772"
+       y="171.47168"
+       rx="17.983315"
+       ry="18.465069"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       ry="14.748482"
+       style="fill:#48d1cc;stroke:#48d1cc;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-7-5"
+       width="184.56583"
+       height="113.28523"
+       x="276.84045"
+       y="88.914604"
+       rx="14.748482"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+       x="332.87241"
+       y="181.66963"
+       id="text3763-9-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221741,0.97830692)"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765-0-9"
+         x="332.87241"
+         y="181.66963"
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold">B</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#9acd32;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:29.99999888, 4.99999981;stroke-dashoffset:0"
+       id="rect14219-7"
+       width="179.90535"
+       height="520.77869"
+       x="491.58356"
+       y="169.89355"
+       rx="17.983315"
+       ry="18.465069"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       ry="14.748482"
+       style="fill:#9acd32;stroke:#9acd32;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-4-4"
+       width="184.56583"
+       height="113.28523"
+       x="489.85199"
+       y="88.914604"
+       rx="14.748482"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#32cd32;stroke-width:0.90005338;font-family:Signika;-inkscape-font-specification:Signika"
+       x="542.38489"
+       y="181.58165"
+       id="text3763-99-0"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221741,0.97830692)"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765-9-1"
+         x="542.38489"
+         y="181.58165"
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;stroke:#fffafa;stroke-width:0.90005338;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono Bold">C</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#ff8c00;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:29.99999888, 4.99999981;stroke-dashoffset:0"
+       id="rect14219-7-7"
+       width="179.90535"
+       height="520.77869"
+       x="709.36377"
+       y="169.89355"
+       rx="17.983315"
+       ry="18.465069"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       ry="14.748482"
+       style="fill:#ff8c00;stroke:#ff8c00;stroke-width:0.90005338;stroke-linejoin:round;stroke-miterlimit:0;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2993-6-7"
+       width="184.56583"
+       height="113.28523"
+       x="706.54254"
+       y="88.914604"
+       rx="14.748482"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Signika;-inkscape-font-specification:Signika"
+       x="753.38495"
+       y="181.62563"
+       id="text3763-2-3"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0221741,0.97830692)"
+       inkscape:export-filename="/home/mahnve/src/presentations/agile_architecture/images/section_split.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3765-1-1"
+         x="753.38495"
+         y="181.62563"
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold">D</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4916-7-7"
+       y="295.87735"
+       x="193.15134"
+       style="font-size:72.65346527px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Nunito;-inkscape-font-specification:Nunito Bold"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#fffafa;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="295.87735"
+         x="193.15134"
+         id="tspan4918-8-8"
+         sodipodi:role="line" /></text>
+    <text
+       transform="scale(1.0221741,0.97830692)"
+       sodipodi:linespacing="125%"
+       id="text3763-20-6"
+       y="475.08453"
+       x="118.0033"
+       style="font-size:50.05430984px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;display:inline;font-family:Signika;-inkscape-font-specification:Signika"
+       xml:space="preserve"><tspan
+         style="font-size:90.09775543px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="475.08453"
+         x="118.0033"
+         id="tspan3765-4-3"
+         sodipodi:role="line">?</tspan></text>
+    <text
+       transform="scale(1.0221741,0.97830692)"
+       sodipodi:linespacing="125%"
+       id="text3763-20-6-4"
+       y="475.67844"
+       x="335.03299"
+       style="font-size:50.05430984000000194px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#48d1cc;fill-opacity:1;stroke:none;display:inline;font-family:Signika;-inkscape-font-specification:Signika"
+       xml:space="preserve"><tspan
+         style="font-size:90.09775543000000653px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#48d1cc;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="475.67844"
+         x="335.03299"
+         id="tspan3765-4-3-9"
+         sodipodi:role="line">?</tspan></text>
+    <text
+       transform="scale(1.0221741,0.97830692)"
+       sodipodi:linespacing="125%"
+       id="text3763-20-6-1"
+       y="482.93741"
+       x="544.22913"
+       style="font-size:50.05430984000000194px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#9acd32;fill-opacity:1;stroke:none;display:inline;font-family:Signika;-inkscape-font-specification:Signika"
+       xml:space="preserve"><tspan
+         style="font-size:90.09775543000000653px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#9acd32;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="482.93741"
+         x="544.22913"
+         id="tspan3765-4-3-5"
+         sodipodi:role="line">?</tspan></text>
+    <text
+       transform="scale(1.0221741,0.97830692)"
+       sodipodi:linespacing="125%"
+       id="text3763-20-6-6"
+       y="491.80951"
+       x="758.82892"
+       style="font-size:50.05430984000000194px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff8c00;fill-opacity:1;stroke:none;display:inline;font-family:Signika;-inkscape-font-specification:Signika"
+       xml:space="preserve"><tspan
+         style="font-size:90.09775543000000653px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff8c00;font-family:DejaVu LGC Sans Mono;-inkscape-font-specification:DejaVu LGC Sans Mono Bold"
+         y="491.80951"
+         x="758.82892"
+         id="tspan3765-4-3-3"
+         sodipodi:role="line">?</tspan></text>
+  </g>
+</svg>
