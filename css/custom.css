@@ -39,6 +39,10 @@ p, ul {
   margin: 40px 0;
 }
 
+ul+p {
+  padding-top: 50px;
+}
+
 li {
   margin: 20px 0;
 }
