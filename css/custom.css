@@ -6,8 +6,8 @@
 }
 
 @font-face {
-  font-family: 'Sorts Mill Goudy';
-  src: url('../fonts/OFLGoudyStM.ttf') format('truetype');
+  font-family: 'Vollkorn Regular';
+  src: url('../fonts/Vollkorn-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,7 +18,7 @@ html, body {
   margin: 0;
   overflow: hidden;
 
-  font-family: 'Sorts Mill Goudy', Times, 'Times New Roman', serif;
+  font-family: 'Vollkorn Regular', Times, 'Times New Roman', serif;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
